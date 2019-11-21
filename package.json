@@ -1,0 +1,31 @@
+{
+  "name": "node-alpine",
+  "version": "12.0.0",
+  "author": "Bartholomej <bart@bartweb.cz>",
+  "description": "Lightweight Docker image based on node:12-alpine with yarn, openssh, git, bash",
+  "scripts": {
+    "version": "",
+    "postversion": "git push && git push --follow-tags",
+    "release:patch": "git checkout master && npm version patch -m \"chore(update): patch release %s 🐛 \"",
+    "release:minor": "git checkout master && npm version minor -m \"chore(update): release %s 🚀\"",
+    "release:major": "git checkout master && npm version major -m \"chore(update): major release %s 💥 \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COEXCZ/node-alpine.git.git"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "alpine",
+    "yarn",
+    "ssh",
+    "bash",
+    "git"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/COEXCZ/node-alpine.git/issues"
+  },
+  "homepage": "https://github.com/COEXCZ/node-alpine.git#readme"
+}
