@@ -17,5 +17,5 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN \
   apk update && \
   apk upgrade && \
-  apk add --no-cache git bash openssh-client && \
-  git --version && bash --version && ssh -V && npm -v && node -v && yarn -v
+  apk add --no-cache git bash openssh-client rsync && \
+  node -v && yarn -v && npm -v && git --version && bash --version && ssh -V && rsync --version

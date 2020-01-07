@@ -2,10 +2,13 @@
 
 > Lightweight Docker image based on node:12-alpine with basic useful tools:
 
+- node 12.13.0+
 - yarn 1.19.1+
-- openssh 7.9+
-- git 2.20.1+
+- npm 6.12.0+
+- git 2.20.2+
 - bash 4.4.19+
+- openssh 7.9+
+- rsync 3.1.3+
 
 ## Examples
 
