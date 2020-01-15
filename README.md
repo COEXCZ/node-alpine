@@ -1,13 +1,13 @@
 # Node Alpine Docker Image with basic useful tools
 
-> Lightweight Docker image based on node:12-alpine with basic useful tools:
+> Lightweight Docker image based on node:10-alpine with basic useful tools:
 
-- node 12.13.0+
-- yarn 1.19.1+
-- npm 6.12.0+
-- git 2.20.2+
-- bash 4.4.19+
-- openssh 7.9+
+- node 10.18.1+
+- yarn 1.21.1+
+- npm 6.13.4+
+- git 2.24.1+
+- bash 5.0.11+
+- openssh 8.1+
 - rsync 3.1.3+
 
 ## Examples
@@ -80,7 +80,7 @@ docker pull coexcz/node-alpine
 
 ## Development
 ```docker
-docker build -t node-alpine:v12.x.x .
-docker tag node-alpine:v12.x.x coexcz/node-alpine:v12.x.x
-docker push coexcz/node-alpine:v12.x.x
+docker build -t node-alpine:v10.x.x .
+docker tag node-alpine:v10.x.x coexcz/node-alpine:v10.x.x
+docker push coexcz/node-alpine:v10.x.x
 ```
