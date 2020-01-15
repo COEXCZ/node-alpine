@@ -9,6 +9,7 @@
 - bash 5.0.11+
 - openssh 8.1+
 - rsync 3.1.3+
+- curl 7.67.0+
 
 ## Examples
 
