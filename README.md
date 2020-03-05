@@ -2,8 +2,8 @@
 
 > Lightweight Docker image based on node:12-alpine with basic useful tools:
 
-- node 12.14.1+
-- yarn 1.21.1+
+- node 12.16.1+
+- yarn 1.22.0+
 - npm 6.13.4+
 - git 2.24.1+
 - bash 5.0.11+
