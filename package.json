@@ -1,6 +1,6 @@
 {
   "name": "node-alpine",
-  "version": "12.18.2",
+  "version": "12.18.3",
   "author": "Bartholomej <bart@bartweb.cz>",
   "description": "Lightweight Docker image based on node:12-alpine with yarn, openssh, git, bash",
   "scripts": {
