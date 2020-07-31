@@ -80,6 +80,22 @@ docker pull coexcz/node-alpine
 ```
 
 ## Development
+
+### Release
+
+#### Automatically
+
+```shell
+yarn release:patch
+# yarn release:minor
+# yarn release:major
+```
+
+New version will be built, tagged and pushed into Docker Hub with current tag `:v1.x.x` + `:latest` tag
+
+
+#### Manually
+
 ```docker
 docker build --no-cache --pull -t node-alpine:v12.x.x .
 docker tag node-alpine:v12.x.x coexcz/node-alpine:v12.x.x
