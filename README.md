@@ -1,15 +1,15 @@
 # Node Alpine Docker Image with basic useful tools
 
-> Lightweight Docker image based on node:14-alpine with basic useful tools:
+> Lightweight Docker image based on node:16-alpine with basic useful tools:
 
-- node 14.16.1+
-- yarn 1.22.5+
-- npm 6.14.12+
-- git 2.24.4+
-- bash 5.0.11+
-- openssh 8.1+
-- rsync 3.1.3+
-- curl 7.67.0+
+- node 16.14.0+
+- yarn 1.22.17+
+- npm 8.3.1+
+- git 2.34.1+
+- bash 5.1.16+
+- openssh 8.8+
+- rsync 3.2.3+
+- curl 7.80.0+
 
 ## Docker hub
 
@@ -97,7 +97,7 @@ New version will be built, tagged and pushed into Docker Hub with current tag `:
 #### Manually
 
 ```docker
-docker build --no-cache --progress plain --pull -t node-alpine:v14.x.x .
-docker tag node-alpine:v14.x.x coexcz/node-alpine:v14.x.x
-docker push coexcz/node-alpine:v14.x.x
+docker build --no-cache --progress plain --pull -t node-alpine:v16.x.x .
+docker tag node-alpine:v16.x.x coexcz/node-alpine:v16.x.x
+docker push coexcz/node-alpine:v16.x.x
 ```
